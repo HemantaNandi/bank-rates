@@ -2,5 +2,8 @@
   "name": "API.AI",
   "description": "API.AI",
   "repository": "https://github.com/HemantaNandi/bank-rates",
-  "keywords": ["api.ai", "natural language"]
+  "keywords": ["api.ai", "natural language"],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
 }
