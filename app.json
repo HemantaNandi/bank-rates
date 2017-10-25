@@ -1,7 +1,6 @@
 {
-  "name": "Bank Rates",
-  "description": "Bank Rates",
+  "name": "API.AI",
+  "description": "API.AI",
   "repository": "https://github.com/HemantaNandi/bank-rates",
-  "keywords": ["ai", "api.ai", "bot", "w3c"],
-  "image": "heroku/nodejs"
+  "keywords": ["api.ai", "natural language"]
 }
