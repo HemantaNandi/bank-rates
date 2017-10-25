@@ -3,15 +3,5 @@
   "description": "Bank Rates",
   "repository": "https://github.com/HemantaNandi/bank-rates",
   "keywords": ["ai", "api.ai", "bot", "w3c"],
-  "env": {
-    "APIAI_TOKEN": {
-      "description": "API.ai Client access token",
-      "value": ""
-    },
-    "APIAI_SESSION_ID": {
-      "description": "An arbitrary string",
-      "value": ""
-    }
-  },
   "image": "heroku/nodejs"
 }
