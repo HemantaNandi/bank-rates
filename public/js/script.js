@@ -18,6 +18,7 @@ document.querySelector('button').addEventListener('click', () => {
 document.querySelector('.output-you1').addEventListener('keyup', function (e) {
     if (e.keyCode == 13) {
        let text=document.getElementsByClassName("output-you1")[0].value;
+	    outputYou.textContent = text;
 		socket.emit('chat message', text);
 		document.getElementsByClassName("output-you1")[0].value='';
     }
