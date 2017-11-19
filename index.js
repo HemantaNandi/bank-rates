@@ -18,7 +18,7 @@ io.on('connection', function(socket){
   console.log('a user connected');
 });
 
-const apiai = require('apiai')('94b99026461a40308de22bd4463600ec');
+const apiai = require('apiai')(APIAI_TOKEN);
 
 // Web UI
 app.get('/', (req, res) => {
@@ -32,7 +32,7 @@ io.on('connection', function(socket) {
     // Get a reply from API.ai
 
     let apiaiReq = apiai.textRequest(text, {
-      sessionId: 'tabby_cat'
+      sessionId: APIAI_SESSION_ID
     });
 
     apiaiReq.on('response', (response) => {
